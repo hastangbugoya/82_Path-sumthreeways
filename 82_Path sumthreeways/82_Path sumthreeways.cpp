@@ -71,7 +71,6 @@ int main()
 	for (i = 0; i < height; i++)
 		FindPath(i, 0, 0, matrix, &minimum);
 
-	FindPath(0, 0, 0, matrix, &minimum);
 	printf("\n%d", minimum);
 }
 
